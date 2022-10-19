@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Creation</title>
+    <link rel="stylesheet" href="account.css" />
+    <script src="account.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+    <header>
+      <h1 style="text-align: center">Create your Energy online account </h1>
+    </header>
+
+      <form id="userForm" action="./profile.html" method="GET">
+        <div class="form-input">
+          <label for="firstName" class="firstcol">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            class="secondcol"
+            required
+          />
+        </div>
+        <div class="form-input">
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            required
+            class="secondcol"
+          />
+        </div>
+        <div class="form-input">
+          <label for="userName">User Name</label>
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            required
+            class="secondcol"
+          />
+        </div>
+          <span id="error-user-name" class="error-hidden"
+            >User Name is not in correct format</span
+          >
+     
+        <div class="form-input">
+          <label for="imageUrl">Avatar Image URL</label>
+          <input type="text" name="imageUrl" id="imageUrl" class="secondcol" />
+        </div>
+          <span id="error-url" class="error-hidden">URL is not valid</span>
+ 
+<div>
+        <button type='submit' class="submit">Submit Form</button>
+        <button type="reset" class="reset">Reset Form</button>
+      </div>
+      </form>
+    </main>
+  </body>
+</html>

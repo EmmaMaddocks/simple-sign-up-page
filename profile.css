@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./images/gonz-ddl-a1Lm99Kkqtg-unsplash.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+header {
+  color: darkolivegreen;
+  font-weight: 400;
+  font-size: 2.5rem;
+  padding-top: 25pt;
+}
+
+
+.container {
+  width: 600px;
+  height: 800px;
+  border-radius: 5px;
+  margin: auto;
+  /* margin-left: 15rem; */
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 1fr; */
+  background-color: white;
+  border-radius: 15pt;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+section {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   padding-bottom: 25pt;
+}
+
+p {
+  font-size: 1.3em;
+  color:rgb(107, 107, 107);
+}
+
+.profile-welcome {
+  font-size: 1.5em;
+  padding:30px;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: darkolivegreen;
+  text-transform: uppercase;
+}
+
+
+#profileImg {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 25px;
+}
